@@ -13,8 +13,10 @@
   }
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Yeseva+One&display=swap");
+
 .App-header {
-  background-color: #282c34;
+  background-color: #0b1f48;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +24,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-family: "Yeseva One", cursive;
 }
 
 .App-link {
